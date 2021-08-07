@@ -6,7 +6,7 @@ import (
 
 type queue []string
 
-func main() {
+func Queue() {
 	fmt.Println("Hello, playground")
 	var newq queue
 	newq.enqueue("10")
